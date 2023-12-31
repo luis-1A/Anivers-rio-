@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #ff5252;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.animation {
+    font-size: 32px;
+    color: #3498db;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#botaoMusica {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
